@@ -5,6 +5,7 @@ const SPEED = 180
 const GRAVITY = 35
 const JUMPFORCE = -1100
 
+
 func _physics_process(delta): # 60 times per second
 	if Input.is_action_pressed("right"):
 		velocity.x = SPEED
@@ -30,3 +31,7 @@ func _physics_process(delta): # 60 times per second
 	velocity = move_and_slide(velocity, Vector2.UP)
 	
 	velocity.x = lerp(velocity.x, 0, 0.2)
+
+
+func _on_VisibilityNotifier2D_screen_exited():
+	get_tree().change_scene("res://Level1.tscn")
