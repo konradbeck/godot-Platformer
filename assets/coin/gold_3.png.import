@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gold_1.png-526ba2fe7526567c49d498478ceb475a.stex"
+path="res://.import/gold_3.png-5d2480982046030a1ed07ed1493209ce.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/coin/coin/gold_1.png"
-dest_files=[ "res://.import/gold_1.png-526ba2fe7526567c49d498478ceb475a.stex" ]
+source_file="res://assets/coin/gold_3.png"
+dest_files=[ "res://.import/gold_3.png-5d2480982046030a1ed07ed1493209ce.stex" ]
 
 [params]
 
