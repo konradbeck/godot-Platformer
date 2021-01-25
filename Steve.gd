@@ -1,6 +1,7 @@
 extends KinematicBody2D
 
 var velocity = Vector2(0, 0)
+var coins = 0
 const SPEED = 180
 const GRAVITY = 35
 const JUMPFORCE = -1100
@@ -35,3 +36,7 @@ func _physics_process(delta): # 60 times per second
 
 func _on_VisibilityNotifier2D_screen_exited():
 	get_tree().change_scene("res://Level1.tscn")
+
+
+func add_coin():
+	coins += 1
